@@ -1,0 +1,92 @@
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.App {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f28ab2;
+  color: #fff;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.container {
+  color: #333;
+  margin-top: 0;
+}
+button {
+  background: #f28ab2;
+  color: #fff;
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  margin-top: 20px;
+  cursor: pointer;
+}
+img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.people {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.cardBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoPerson p {
+  margin: 5px 0;
+}
+.addBtn {
+  margin: 1em 0;
+  width: 20%;
+}
+.headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1.5px solid #706e90;
+  outline: none;
+}
+.newCommentForm div {
+  margin: 10px 0;
+}
+form.newCommentForm {
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 15px 0;
+  align-items: center;
+  border-radius: 15px;
+}
+.newCommentForm button{
+  width: 25%;
+}
